@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Sriracha&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+  <title>Task1-LGM</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>My To Do List</h1>
+      <!-- input에 value 옵션은 -->
+      <input type="text" id="inputText" placeholder="Type In and Press Enter to Add">
+    </header>
+    <section>
+      <ul id="todoList" class="list">
+        <li class="item">
+          <p>Test Sample</p>
+          <div class="icons">
+            <!-- fas fa-check-square -->
+            <i class="far fa-check-square"></i><i class="far fa-trash-alt"></i>
+          </div>
+        </li>
+      </ul>
+      <ul id="doneList" class="list">
+      </ul>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

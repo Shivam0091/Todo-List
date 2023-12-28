@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Sriracha', cursive;
+    list-style : none;
+    font-size: 16px;
+}
+body{
+ background: #5f5959;
+}
+
+.container{
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 50px;
+    /* align-items: center; */
+}
+
+header{
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    
+}
+
+header h1{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header input{
+    padding: 8px;
+    text-align: center;
+    font-size: 1.5rem;
+    width: 70%;
+    border: 2px solid #fcfcfc;
+    border-radius: 10px;
+}
+
+header input:focus{
+    outline: none;
+}
+
+section{
+    display: flex;    
+}
+
+.list{
+    padding: 10px;
+    flex: 1;
+    text-align: center;
+   
+}
+
+.item{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(224, 224, 224);
+}
+
+#todoList .item p{
+    flex:1;
+    font-size: 1.5rem;
+}
+
+#doneList li{
+    border-bottom: 1px solid rgb(224, 224, 224);
+    padding: 5px;
+    flex:1;
+    text-decoration: line-through;
+    text-decoration-color: red;
+}
+
+.item .icons{
+    margin-left: 20px;
+}
+
+.fa-trash-alt{
+    margin-left: 5px;
+}
+
